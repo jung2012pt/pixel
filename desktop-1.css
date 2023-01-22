@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-div4,
+.rectangle-input2,
+.rectangle-input3 {
+  background-color: var(--color-gray-100);
+  position: absolute;
+}
+.rectangle-div4 {
+  top: 250px;
+  left: 383px;
+  border-radius: var(--br-lg);
+  width: 673px;
+  height: 524px;
+}
+.rectangle-input2,
+.rectangle-input3 {
+  border: 0;
+  top: 538px;
+  left: 584px;
+  width: 273px;
+  height: 49px;
+}
+.rectangle-input3 {
+  top: 463px;
+}
+.login-div2 {
+  position: absolute;
+  top: 358px;
+  left: 634px;
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  display: inline-block;
+}
+.line-icon2,
+.line-icon3 {
+  position: absolute;
+  top: 508px;
+  left: 586px;
+  width: 271px;
+  height: 2px;
+}
+.line-icon3 {
+  top: 584px;
+}
+.password-div1,
+.username-div1 {
+  position: absolute;
+  top: 480px;
+  left: 666px;
+  font-weight: 300;
+  display: inline-block;
+}
+.password-div1 {
+  top: 556px;
+  left: 665px;
+}
+.iconlylight-outlineadd-user1,
+.iconlylight-outlinelock1 {
+  position: absolute;
+  height: 3.22%;
+  width: 1.74%;
+  top: 53.32%;
+  right: 56.88%;
+  bottom: 43.46%;
+  left: 41.39%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconlylight-outlineadd-user1 {
+  height: 2.93%;
+  width: 2.08%;
+  top: 46.19%;
+  right: 56.53%;
+  bottom: 50.88%;
+}
+.rectangle-div5 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+}
+.forgot-password-div1 {
+  position: absolute;
+  top: 14.71%;
+  left: 2.35%;
+  font-size: var(--font-size-base);
+  font-weight: 200;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.component-3-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 643px;
+  left: 635px;
+  width: 170px;
+  height: 34px;
+}
+.login-div3 {
+  position: absolute;
+  top: 2.33%;
+  left: 27.03%;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.rectangle-div6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-200);
+}
+.component-1-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 703px;
+  left: 627px;
+  width: 185px;
+  height: 43px;
+}
+.remember-me-div1 {
+  position: absolute;
+  top: 13.33%;
+  left: 2.76%;
+  font-size: var(--font-size-base);
+  font-weight: 200;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.component-2-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 602px;
+  left: 648px;
+  width: 145px;
+  height: 30px;
+}
+.desktop-1,
+.rectangle-button1 {
+  background-color: var(--color-white);
+}
+.rectangle-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  top: 603px;
+  left: 590px;
+  border-radius: var(--br-sm);
+  width: 36px;
+  height: 36px;
+}
+.desktop-1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+
+
+/* Customize the label (the container) */
+.container {
+  
+  top: 603px;
+  left: 590px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  border-radius: 7.5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

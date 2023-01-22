@@ -1,0 +1,24 @@
+:root {
+  /* fonts */
+  --default-size-body: "SF Pro Text";
+  --font-inter: Inter;
+  --font-raleway: Raleway;
+
+  /* font sizes */
+  --default-size-body-size: 17px;
+  --font-size-base: 20px;
+  --font-size-lg: 24px;
+  --font-size-xl: 32px;
+  --font-size-2xl: 64px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #b1b1b3;
+  --color-gray-200: rgba(255, 255, 255, 0.47);
+  --color-black: #000;
+
+  /* border radiuses */
+  --br-sm: 11px;
+  --br-md: 19px;
+  --br-lg: 56px;
+}
